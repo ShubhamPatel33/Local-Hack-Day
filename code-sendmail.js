@@ -4,7 +4,7 @@ const sgMail = require('@sendgrid/mail')
 //SENDGRID_API_KEY='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'
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 const msg = {
-  to: 'charvi.imscit17@gmail.com', // Change to your recipient
+  to: 'shubhamashishpatel@gmail.com', // Change to your recipient
   from: 'shubhamashipatel@gmail.com', // Change to your verified sender
   subject: 'Sending with SendGrid is Fun',
   text: 'and easy to do anywhere, even with Node.js',
